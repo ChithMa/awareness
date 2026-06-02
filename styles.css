@@ -123,6 +123,9 @@ h1 {
 }
 
 .primary-button {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
   border: none;
   border-radius: 999px;
   background: linear-gradient(135deg, #2563eb, #0ea5e9);
