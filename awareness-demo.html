@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phishing Awareness Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="scary">
+  <div class="page-shell">
+    <header class="hero" role="banner">
+      <div class="hero-copy">
+        <p class="eyebrow">Phishing Awareness Program</p>
+        <h1>Your system is compromised</h1>
+        <p class="hero-text">This alert simulates a phishing breach. If this were real, attackers could have access to your accounts, files, and credentials. Immediate action would be required to contain the threat.</p>
+        <div class="hero-actions">
+          <button id="learnMoreBtn" class="primary-button">Learn How to Protect Yourself</button>
+          <a href="#warning-signs" class="text-link">See warning signs</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="visual-card">
+          <div class="visual-icon email-icon">⚠️</div>
+          <div class="visual-content">
+            <p class="visual-note">Breach simulation active: do not ignore.</p>
+            <div class="link-preview">compromised://account-access</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section intro" aria-labelledby="intro-heading">
+        <h2 id="intro-heading">What this means</h2>
+        <p>Phishing simulations often use alarming messages to help people learn how attackers try to trick them. This page does not collect passwords, personal data, cookies, or tracking information.</p>
+      </section>
+
+      <section class="section cards" aria-labelledby="warning-signs">
+        <div class="section-header">
+          <h2 id="warning-signs">Warning signs of a phishing message</h2>
+          <p>Pay attention to what makes a message suspicious before you react.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-icon">📩</div>
+            <h3>Unexpected alerts</h3>
+            <p>Be skeptical of sudden security warnings or login prompts that arrive without notice.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">⚠️</div>
+            <h3>Scary language</h3>
+            <p>Attackers often use fear and urgency to push you into acting without thinking.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">🌍</div>
+            <h3>Suspicious links</h3>
+            <p>Hover over URLs and look for mismatched domains, strange spellings, or hidden redirects.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">🔑</div>
+            <h3>Requests for sensitive data</h3>
+            <p>Legitimate organizations rarely ask for passwords or personal details through email or pop-ups.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section tips" aria-labelledby="protection-heading">
+        <div class="section-header">
+          <h2 id="protection-heading">How to respond safely</h2>
+          <p>Use these steps to avoid falling victim to phishing attempts.</p>
+        </div>
+        <ol class="tips-list">
+          <li><strong>Stop and review.</strong> Don't let urgency override common sense.</li>
+          <li><strong>Verify the sender.</strong> Check the email address or message source carefully.</li>
+          <li><strong>Hover before clicking.</strong> Confirm the real destination of links before you follow them.</li>
+          <li><strong>Report suspicious content.</strong> Let your security team know if something looks off.</li>
+        </ol>
+      </section>
+
+      <aside class="callout" role="note">
+        <strong>No information was collected from you during this demonstration.</strong>
+        <p>This page is a safe educational experience and does not track or store any personal data.</p>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <p>Cybersecurity awareness helps you stay safer online. Always verify before you click.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
